@@ -15,3 +15,8 @@ body {
     float: left;
     padding: 20px;
 }
+
+.h2 {
+font-family: fantasy, 'Times New Roman', Times, serif;
+table-layout: fixed;
+}
