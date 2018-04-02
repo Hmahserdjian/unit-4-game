@@ -1,11 +1,11 @@
 h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    
+    color: tomato
 }
 
 body {
-    background-color: rgb(196, 16, 16);
+    background-color: whitesmoke;
     
 }
 
@@ -16,7 +16,13 @@ body {
     padding: 20px;
 }
 
-.h2 {
+h2 {
 font-family: fantasy, 'Times New Roman', Times, serif;
 table-layout: fixed;
+color: red;
+}
+
+p {
+
+color: orangered;
 }

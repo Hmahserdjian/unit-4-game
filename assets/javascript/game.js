@@ -24,17 +24,17 @@ for (var i = 0; i < num.length; i++) {
 };
 
 
-// magicRocks.on("click", ".shineyRocks", function () {
+magicRocks.on("click", ".shineyRocks", function () {
 
 
-//     var rocks = ($(this).attr("data-rocksvalue"));
-//     rocks = parseInt(rocks);
+    var rocks = ($(this).attr("data-rocksvalue"));
+    rocks = parseInt(rocks);
 
-//     counter += shineyRocks;
+    counter += shineyRocks;
 
 
-//     alert("New score: " + counter);
-// });
+    alert("New score: " + counter);
+});
 
 var counter = 0;
 $("#rocks").on("click", ".Pic1", function () {
