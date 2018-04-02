@@ -1,7 +1,7 @@
 var num = (4, 5, 11, 20);
 
 var magicRocks = $("#rocks");
-var numRan = num[Math.round(Math.random()+ 4)];
+var numRan = num[Math.round(Math.random())];
 
 var goalScore = 75;
 $("#score").text(goalScore);
@@ -26,8 +26,8 @@ for (var i = 0; i < num.length; i++) {
 
 magicRocks.on("click", ".shineyRocks", function () {
 
-
-    var rocks = ($(this).attr("data-rocksvalue"));
+    
+    var num = ($(this).attr("data-rocksvalue"));
     rocks = parseInt(rocks);
 
     counter += shineyRocks;
@@ -38,8 +38,8 @@ magicRocks.on("click", ".shineyRocks", function () {
 
 var counter = 0;
 $("#rocks").on("click", ".Pic1", function () {
-
-    counter += numRan;
+    document.getElementById(numRan);
+    counter += num;
     alert("Your new score is " + counter);
 
     if (counter === goalScore) {
